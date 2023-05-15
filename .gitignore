@@ -1,29 +1,24 @@
-# Archivos ejecutables
 *.exe
 *.exe~
 *.dll
 *.so
 *.dylib
 
-# Archivos de respaldo
 *~
 *.bak
 
-# Directorio de compilación
 /bin/
 
-# Dependencias y módulos de Go
 /vendor/
 /go.sum
 /go.mod
 
-# Archivos de registro
 /log/
 
-# Archivos de configuración local (por ejemplo, archivos .env)
 .env
+.air.toml
+tmp
 
-# Archivos generados por IDE y editores de texto
 .idea/
 .vscode/
 *.swp
